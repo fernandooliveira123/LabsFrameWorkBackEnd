@@ -87,3 +87,4 @@ Route::post('/logout', function () {
     session()->forget('user');
     return redirect('/login');
 });
+// 
